@@ -1,0 +1,17 @@
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.exe
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.deps.json
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.runtimeconfig.json
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.dll
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.pdb
+C:\Users\S111\source\repos\LibraryManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.AssemblyInfoInputs.cache
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.AssemblyInfo.cs
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryM.4D120AE7.Up2Date
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.dll
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\refint\LibraryManagementSystem.dll
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.pdb
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.genruntimeconfig.cache
+C:\Users\S111\source\repos\LibraryManagementSystem\obj\Debug\net8.0\ref\LibraryManagementSystem.dll
