@@ -31,8 +31,6 @@ namespace LibraryManagementSystem
                     switch (choice)
                     {
                         case "1":
-                            Console.Write("Введите ID книги: ");
-                            var bookId = Console.ReadLine();
                             Console.Write("Введите название книги: ");
                             var title = Console.ReadLine();
                             Console.Write("Введите автора книги: ");
@@ -40,13 +38,13 @@ namespace LibraryManagementSystem
                             Console.Write("Введите год издания книги: ");
                             var year = int.Parse(Console.ReadLine());
 
-                            bookManager.AddBook(new Book { Id = bookId, Title = title, Author = author, YearPublished = year });
+                            bookManager.AddBook(new Book { Title = title, Author = author, YearPublished = year });
                             Console.WriteLine("Книга добавлена.");
                             break;
 
                         case "2":
                             Console.Write("Введите ID книги для удаления: ");
-                            bookId = Console.ReadLine();
+                            var bookId = Console.ReadLine();
                             bookManager.RemoveBook(bookId);
                             Console.WriteLine("Книга удалена.");
                             break;
@@ -66,23 +64,23 @@ namespace LibraryManagementSystem
                             break;
 
                         case "5":
-                            Console.Write("Введите ID читателя: ");
-                            var readerId = Console.ReadLine();
                             Console.Write("Введите имя читателя: ");
                             var name = Console.ReadLine();
                             Console.Write("Введите email читателя: ");
                             var email = Console.ReadLine();
 
-                            readerManager.AddReader(new Reader { Id = readerId, Name = name, Email = email });
+                            // Add the reader without requiring an ID, it will be auto-generated
+                            readerManager.AddReader(new Reader { Name = name, Email = email });
                             Console.WriteLine("Читатель добавлен.");
                             break;
 
                         case "6":
                             Console.Write("Введите ID читателя для удаления: ");
-                            readerId = Console.ReadLine();
+                            var readerId = Console.ReadLine();
                             readerManager.RemoveReader(readerId);
                             Console.WriteLine("Читатель удален.");
                             break;
+
                         case "7":
                             Console.Write("Введите ID читателя для просмотра: ");
                             readerId = Console.ReadLine();
@@ -101,7 +99,7 @@ namespace LibraryManagementSystem
                             return;
 
                         default:
-                            Console.WriteLine("Неверный выбор.");
+                            Console.WriteLine("Неверный выбор. Пожалуйста, выберите правильное действие.");
                             break;
                     }
                 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|c:\\users\\s111\\source\\repos\\librarymanagementsystem\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|solutionrelative:managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|c:\\users\\s111\\source\\repos\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|c:\\users\\s111\\source\\repos\\librarymanagementsystem\\managers\\readermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|solutionrelative:managers\\readermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|c:\\users\\s111\\source\\repos\\librarymanagementsystem\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|solutionrelative:managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF915954-FB09-46CD-9F0C-3D53A217B5B2}|LibraryManagementSystem.csproj|c:\\users\\s111\\source\\repos\\librarymanagementsystem\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -53,46 +53,46 @@
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T06:18:07.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ReaderManager.cs",
               "DocumentMoniker": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Managers\\ReaderManager.cs",
               "RelativeDocumentMoniker": "Managers\\ReaderManager.cs",
               "ToolTip": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Managers\\ReaderManager.cs",
               "RelativeToolTip": "Managers\\ReaderManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T06:17:58.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Managers\\BookManager.cs",
               "RelativeDocumentMoniker": "Managers\\BookManager.cs",
               "ToolTip": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Managers\\BookManager.cs",
               "RelativeToolTip": "Managers\\BookManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T06:17:44.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\S111\\source\\repos\\LibraryManagementSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAABAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAADwv3AAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T06:15:54.918Z",
               "EditorCaption": ""

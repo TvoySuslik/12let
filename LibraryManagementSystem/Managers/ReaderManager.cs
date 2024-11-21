@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace LibraryManagementSystem.Managers
 {
@@ -11,18 +12,27 @@ namespace LibraryManagementSystem.Managers
     {
         public List<Reader> Readers { get; private set; } = new List<Reader>();
         private const string FilePath = "readers.json";
+        private int _nextId;
 
         public ReaderManager()
         {
             LoadFromFile();
+            _nextId = Readers.Any() ? Readers.Max(r => int.Parse(r.Id)) + 1 : 1;
         }
 
         public void AddReader(Reader reader)
         {
-            if (Readers.Any(r => r.Id == reader.Id))
+            if (!Regex.IsMatch(reader.Name, @"^[А-Яа-яёЁ\s]+$"))
             {
-                throw new InvalidOperationException("Читатель с таким ID уже существует.");
+                throw new ArgumentException("Имя читателя должно быть написано только русскими буквами.");
             }
+
+            if (!Regex.IsMatch(reader.Email, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"))
+            {
+                throw new ArgumentException("Email должен содержать только английские буквы и должен включать '@'.");
+            }
+
+            reader.Id = (_nextId++).ToString();
             Readers.Add(reader);
             SaveToFile();
         }

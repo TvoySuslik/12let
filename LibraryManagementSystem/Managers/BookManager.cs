@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace LibraryManagementSystem.Managers
 {
@@ -11,18 +12,27 @@ namespace LibraryManagementSystem.Managers
     {
         public List<Book> Books { get; private set; } = new List<Book>();
         private const string FilePath = "books.json";
+        private int _nextId;
 
         public BookManager()
         {
             LoadFromFile();
+            _nextId = Books.Any() ? Books.Max(b => int.Parse(b.Id)) + 1 : 1;  // Set the next ID based on existing books
         }
 
         public void AddBook(Book book)
         {
-            if (Books.Any(b => b.Id == book.Id))
+            if (!Regex.IsMatch(book.Author, @"^[А-Яа-яёЁ\s]+$"))
             {
-                throw new InvalidOperationException("Книга с таким ID уже существует.");
+                throw new ArgumentException("Имя автора должно быть написано только русскими буквами.");
             }
+
+            if (book.YearPublished < 1 || book.YearPublished > 2024)
+            {
+                throw new ArgumentException("Год издания должен быть в пределах от 1 до 2024.");
+            }
+
+            book.Id = (_nextId++).ToString();
             Books.Add(book);
             SaveToFile();
         }
